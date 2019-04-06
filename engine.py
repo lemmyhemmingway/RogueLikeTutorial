@@ -24,7 +24,6 @@ def main():
         libtcod.console_flush()
 
         libtcod.console_put_char(con, player_x, player_y, ' ', libtcod.BKGND_NONE)
-
         action = handle_keys(key)
 
         move = action.get('move')
@@ -35,7 +34,6 @@ def main():
             dx, dy = move
             player_x += dx
             player_y += dy
-
 
         if exit:
             return True
