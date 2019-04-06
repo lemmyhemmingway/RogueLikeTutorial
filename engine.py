@@ -1,6 +1,6 @@
 import tcod as libtcod
-
 from input_handlers import handle_keys
+
 
 def main():
     screen_width = 80
